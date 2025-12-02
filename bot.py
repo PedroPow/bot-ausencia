@@ -2,8 +2,9 @@ import discord
 from discord.ext import commands
 from discord.ui import View, Button
 import asyncio
+import os
 
-TOKEN = "MTM2MjIwODU1NjUwNTM2NjczMA.GGsvo2.t99f9NiAJ4pMKRV6UYbuR3K_20YK8zKu8huy_Q"
+TOKEN = os.getenv("TOKEN")
 
 CANAL_AUSENCIA_ID = 1362171636085686322
 LOG_AUSENCIA_ID = 1363424022699835533
